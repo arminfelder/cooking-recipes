@@ -1,0 +1,86 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage{ucs}
+\usepackage[utf8]{inputenc}
+\usepackage{babel}
+\usepackage{fontenc}
+\usepackage{graphicx}
+\usepackage{cuisine}
+
+\newcommand{\ingredientAmount}[3]{\ingredient[#1]{#2}{#3}}
+\newcommand{\recipeStep}[1]{\newstep\noindent\textbf{#1:}}
+
+\begin{document}
+    \begin{recipe}{Pizza Margherita}{10 Stück}
+
+    \recipeStep{Vorteig}
+
+    \ingredient[320]{g}{Mehl Tipo 00}
+    \ingredient[320]{ml}{Wasser}
+    \ingredient[0,1]{g}{Frischefe}
+
+    Lauwarmens Wasser und Hefe in ein verschliessbares Glas geben, vermischen und 5m stehen lassen, um die Hefe zu aktivieren.
+    \\
+
+    Mehl dazugeben und vermischen, dann verschliessen und fuer max. 72h bei 5-10\0C ruhen lassen.
+
+    \recipeStep{Hauptteig}
+
+    \ingredient[1280]{g}{Mehl Tipo 00}
+    \ingredient[680]{ml}{Wasser}
+    \ingredient[50]{g}{Salz}
+    \ingredient[20]{ml}{Olivenöl}
+
+    Wasser Mehl und Vorteig aus Schritt 1 vermischen und 5m stehen lassen \\
+
+    Anschliessend das Salz dazugeben und den Teig mit einem Mixer kurz vorkneten, und dann haendisch weiterkneten, indem der Teig kontinuirlich gezogen und gefaltet wird,
+    bis dieser fettig aussieht, sich glatt anfühlt, nichtmehr gut dehnbar aber dafür elastisch ist.
+    \\
+
+    Den Teig mit einem feuchten Tuch bedeckt ruhen lassen, bis sich eine leichte Kruste bildet(etwa 1h).
+    \\
+
+    Mit einer Küchenspachtel den Teig in Portionen von 200-280g (22 bzw.35cm Pizza) teilen.
+    \\
+
+
+    Etwas Olivenöl auf die Teige geben und zu Kugeln formen, in dem gestopft und abgezwickt wird (Mozzatura).
+    \\
+
+    Die Teigkugeln in einer geschlossenen Plastikbox bis zu 24h bei 20,5-25.3°C ruhen lassen.\\
+
+
+    \recipeStep{Belag vorbereiten}
+
+
+    \ingredient[600]{g}{Toamten(San Marzano)}
+    \ingredient[60]{ml}{Olivenöl}
+    \ingredient[ein paar]{Blätter}{frisches Basilikum}
+    \ingredient[700]{g}{Büffelmozzarella oder Fior die Latte}
+
+
+    Für die Souce Tomaten, Olivenöl, Salz, sowie einen Teil des Basilikums in eine Schüssel geben, mit der Hand zerdrücken und gut vermischen.
+    \\
+
+    Mozzarella in 1x1cm Streifen schneiden und im Kühlschrank trocknen lassen.
+
+    \recipeStep{Pizza formen}
+    \ingredient[100]{g}{Weichweizengrieß}
+
+    Die fertig gereiften Teiglinge aus der Box nehmen und auf einer mit Weichweizengrieß leicht bemehlten Arbeitsfläche zu einer Scheibe formen,
+    dazu wird der Teig mit den Fingern von innen nach außen gearbeitet, und mehrfach gewendet, bis in der Mitte ca 1mm und am Rand ca. 1cm erreicht werden
+
+
+    \newstep
+    \ingredient[50]{g}{Parmesan}
+    \ingredient[ein paar]{Blätter}{frisches Basilikum}
+
+    Die Tomatensouce mit einem Löffel auf dem Teig verteilen, Basilikumblätter, Mozzarella Streifen darauf verteilen, und Parmesan grob darüber reiben.
+    \\
+    \recipeStep{Pizza backen}
+
+    Die Pizza mit einer Schaufel in einen Ofen mit 485\0C bei 430\0C Oberflächentemperatur fuer 60-90s backen.
+
+
+
+    \end{recipe}
+\end{document}
